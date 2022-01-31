@@ -57,6 +57,12 @@ li {
   align-items: center;
   height: 100vh;
 }
+
+.welcome-section img {
+  max-width: 600px;
+  height: auto;
+}
+
 .width-container-welcome {
   display: flex;
   justify-content: space-between;
@@ -91,4 +97,59 @@ button {
   font-weight: bold;
   font-size: 18px;
   border: none;
+}
+
+.random-section {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.random-header {
+  margin: 50px;
+}
+
+.random-items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  margin-bottom: 100px;
+}
+
+.item {
+  width: 150px;
+  text-align: center;
+  color: var(--blue);
+}
+
+.item img {
+  border-radius: 10px;
+  border: solid 4px #3882f6;
+}
+
+.quote-section {
+  background-color: var(--gray);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  max-width: 800px;
+  color: var(--blue);
+}
+
+.quote-author {
+  font-weight: bold;
+  color: var(--blue);
+  font-size: 20px;
+  font-weight: bold;
+  align-self: center;
 }
