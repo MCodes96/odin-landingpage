@@ -63,11 +63,32 @@ li {
   width: 70%;
 }
 
+.welcome-text {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
 .welcome-text h1 {
   color: var(--white);
+  font-weight: 800;
+  font-size: 48px;
 }
 
 .welcome-text p {
   color: var(--gray);
   font-weight: lighter;
+  font-size: 18px;
+}
+
+button {
+  padding: 10px 25px;
+  margin-top: 10px;
+  background-color: #3882f6;
+  border-radius: 10px;
+  color: var(--white);
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
 }
