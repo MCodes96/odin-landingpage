@@ -151,5 +151,12 @@ button {
   color: var(--blue);
   font-size: 20px;
   font-weight: bold;
-  align-self: center;
+  align-self: flex-end;
+}
+
+.quote-container {
+  max-width: 800px;
+  display: flex;
+  flex-flow: column wrap;
+  margin: 100px;
 }
