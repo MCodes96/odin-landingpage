@@ -152,6 +152,7 @@ button {
   font-size: 20px;
   font-weight: bold;
   align-self: flex-end;
+  margin-right: 50px;
 }
 
 .quote-container {
@@ -159,4 +160,45 @@ button {
   display: flex;
   flex-flow: column wrap;
   margin: 100px;
+}
+
+.cta-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-banner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 1000px;
+  background-color: #3882f6;
+  border-radius: 10px;
+  margin: 100px;
+}
+
+.cta-text {
+  margin: 50px;
+  color: var(--white);
+  font-size: 20px;
+}
+
+.cta-text p {
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.blue-banner button {
+  border: solid 2px var(--white);
+}
+
+footer {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  font-size: 18px;
+  font-weight: lighter;
 }
